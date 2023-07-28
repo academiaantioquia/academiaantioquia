@@ -47,9 +47,9 @@ body{
 }
 
 .category_list{
-	display: flex;
+	display: block;
 	flex-direction: column;
-	width: 80%;
+	width: 100%;
 }
 
 .category_list .category_item{
