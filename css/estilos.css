@@ -12,7 +12,7 @@ body{
 }
 footer{
 	margin: auto;
-	width: 50%
+	width: 40%;
 	.buttons {
 		min-width: 100px;
 		display: flex;
@@ -245,11 +245,14 @@ body {
 
 .wrapper {
 	max-width: 1200px;
-	margin: 0 auto;
+	margin:  auto;
 }
 
 .slider {
 	position: relative;
+	margin-top: 5%;
+	
+
 }
 
 .slides {
