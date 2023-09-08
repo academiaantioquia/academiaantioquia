@@ -14,7 +14,7 @@ footer{
 	margin: auto;
 	width: 50%
 	.buttons {
-		min-width: 700px;
+		min-width: 100px;
 		display: flex;
 		justify-content: space-evenly;
 	  }
