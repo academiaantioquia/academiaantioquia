@@ -131,7 +131,7 @@ footer{
 .products-list .product-item a{
 	display: block;
 	width: 120%;
-	padding: 20px 0;
+	padding: 10px 0;
 	background: #fbff00;
 	-webkit-border-radius: 28;
 	-moz-border-radius: 28;
@@ -144,7 +144,7 @@ footer{
   font-family: Arial;
 	color: #000000;
 	font-size: 27px;
-	padding: 19px;
+	padding: 9px;
 	text-decoration: none;
   }
 
@@ -239,6 +239,9 @@ footer{
 
 html { scroll-behavior: smooth; }
 
+
+
+
 body {
 	font-family: sans-serif;
 }
@@ -248,110 +251,12 @@ body {
 	margin:  auto;
 }
 
-.slider {
-	position: relative;
-	margin-top: 5%;
-	
-
-}
-
-.slides {
-	position: relative;
-	display: flex;
-	overflow: hidden;
-}
-
-.slide {
-	width: 100vw;
-	flex-shrink: 0;
-	animation-name: slide;
-	animation-duration: 20s;
-	animation-iteration-count: infinite;
-	animation-timing-function: linear;
-}
-
-.slides:hover .slide {
-	animation-play-state: paused;
-}
-
-.slide img {
-	width: 100%;
-	vertical-align: top;
-}
-
-.slide a {
-	width: 100%;
-	display: inline-block;
-	position: relative;
-}
-
-.caption {
-	color: white;
-	text-shadow: 1px 1px black;
-	font-size: 8vw;
-	position: absolute;
-	bottom: 8vw;
-	right: 4vw;
-}
-
-.slide:target {
-	animation-name: none;
-	position: absolute;
-	left: 0;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	z-index: 50;
-}
-
-.slider-controler {
-	position: absolute;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	text-align: center;
-	padding: 5px;
-	background-color: rgba(0,0,0,0.5);
-	z-index: 100;
-}
-
-.slider-controler li {
-	margin: 0 0.5rem;
-	display: inline-block;
-	vertical-align: top;
-}
-
-.slider-controler a {
-	display: inline-block;
-	vertical-align: top;
-	text-decoration: none;
-	color: white;
-	font-size: 1.5rem;
-}
-
-@media only screen and (min-width: 1200px) {
-	.slide {
-		width: 1200px;
-	}
-
-	.caption {
-		font-size: 96px;
-		bottom: 96px;
-		right: 50px;
-	}
-}
-
-
-
-
-
-
 
 body {
 	font-family: 'Sintony', sans-serif;
-	color: #e5e5e5;
+	color: #0a0000;
 	font-size: 12px;
-	background: #ffffff;
+	background: #fafafa;
 	line-height: 1;
   }
   *, *:before, *:after {
