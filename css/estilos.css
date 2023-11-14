@@ -54,6 +54,7 @@ footer{
 	flex-direction: column;
 	text-align: center;
 	margin: 15px 0px;
+	font-size: 30px;
 }
 .wrap > h2{
 	color: #090c09;
@@ -70,7 +71,7 @@ footer{
 	height: 2px;
 	background: #C7C7C7;
 	margin: 20px 0;
-	font-size: 25px;
+	font-size: 30px;
 }
 
 .store-wrapper{
