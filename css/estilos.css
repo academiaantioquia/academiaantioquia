@@ -587,4 +587,8 @@ body {
 	box-shadow: 5px 5x 5px #999;
   z-index:100;
 }
+.float :hover{
+	transform: scale(1.2);
+	
+	}
 
