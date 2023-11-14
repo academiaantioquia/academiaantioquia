@@ -17,6 +17,7 @@ footer{
 		min-width: 100px;
 		display: flex;
 		justify-content: space-evenly;
+		margin-top: 15px;
 	  }
 	  
 	  .buttons a {
@@ -31,14 +32,11 @@ footer{
 		border-radius: 50%;
 		box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
 		transition: all .4s ease-in-out;
-		object-position: left;
 	  }
 	  
 	  .buttons a:hover {
 		transform: scale(1.2);
 	  }
-
-}
 
 }
 
@@ -52,12 +50,12 @@ footer{
 
 .wrap > h1{
 	color: #15a502;
-	font-weight: 110;
+	font-weight: 1100;
 	display: flex;
 	flex-direction: column;
 	text-align: center;
 	margin: 15px 0px;
-        font-size: 30px;
+	font-size: 30px;
 }
 .wrap > h2{
 	color: #090c09;
@@ -74,6 +72,7 @@ footer{
 	height: 2px;
 	background: #C7C7C7;
 	margin: 20px 0;
+	font-size: 30px;
 }
 
 .store-wrapper{
@@ -517,9 +516,8 @@ body {
 	-webkit-animation-name: fadeIn;
 	animation-name: fadeIn;
   }
- 
- footer {
-	background-color: rgba(4, 110, 13, 0.8); /* Gris claro con opacidad del 80% */
+  footer {
+	background-color: rgba(4, 141, 15, 0.8); /* Gris claro con opacidad del 80% */
 	color: #fff; /* Texto en color blanco */
 	max-width: 100;
 	width: 100%;
@@ -527,13 +525,7 @@ body {
 	text-align: center;
 	margin-right: 5%;
   }
- /* Estilo para el footer */
-footer {
-	background-color: rgba(37, 122, 4, 0.8); /* Gris claro con opacidad del 80% */
-	color: #fff; /* Texto en color blanco */
-	padding: 20px;
-  }
-  
+ 
   .footer-content {
 	display: flex;
 	justify-content: space-between;
@@ -545,7 +537,7 @@ footer {
   }
   
   .footer-info h3 {
-	font-size: 24px;
+	font-size: 240px;
   }
   
   .footer-contact, .footer-social {
@@ -553,7 +545,7 @@ footer {
   }
   
   .footer-contact h4, .footer-social h4 {
-	font-size: 18px;
+	font-size: 180x;
   }
   
   .footer-contact p, .footer-social p {
@@ -568,7 +560,7 @@ footer {
   }
   
   .footer-social li {
-	margin-right: 10px;
+	margin-right: 100px;
 
   }
   
@@ -587,7 +579,7 @@ footer {
 	height:40px;
 	bottom:40px;
 	right:40px;
-	background-color:#25d366;
+	background-color:#048634;
 	color:#FFF;
 	border-radius:50px;
 	text-align:center;
