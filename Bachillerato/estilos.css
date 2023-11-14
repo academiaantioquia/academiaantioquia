@@ -516,6 +516,11 @@ body {
 	-webkit-animation-name: fadeIn;
 	animation-name: fadeIn;
   }
+ 
+  .fadeIn {
+	-webkit-animation-name: fadeIn;
+	animation-name: fadeIn;
+  }
   footer {
 	background-color: rgba(4, 141, 15, 0.8); /* Gris claro con opacidad del 80% */
 	color: #fff; /* Texto en color blanco */
