@@ -592,11 +592,37 @@ body {
 	
 	}
 
-iframe{
-		width: 350px;
-		height: 350px;
-		border: 5px solid green;
-		margin-left: 1%;
-		
-	  }
+
+
+	/* Estilos generales */
+.contenedor-iframe {
+    position: relative;
+    overflow: hidden;
+}
+
+.contenedor-iframe iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Estilos para escritorio */
+@media only screen and (min-width: 768px) {
+    .contenedor-iframe {
+        width: 450px;
+        height: 450px;
+        margin: 0 auto;
+    }
+}
+
+/* Estilos para dispositivos móviles */
+@media only screen and (max-width: 767px) {
+    .contenedor-iframe {
+        width: 350px;
+        height: 350px;
+        margin: 0 auto;
+    }
+}
 
