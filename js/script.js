@@ -54,7 +54,7 @@ $(document).ready(function() {
 
 	  });
 	//add active class on menu
-	$('ul li').click(function(e) {
+	$('ul li').click(function() {
 	  e.preventDefault();
 	  $('li').removeClass('active');
 	  $(this).addClass('active');
