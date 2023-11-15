@@ -573,25 +573,23 @@ body {
 
 
 
-  .float{
+   .float{
 	position:fixed;
-	width:40px;
-	height:40px;
-	bottom:40px;
-	right:40px;
+	width:70px;
+	height:70px;
+	bottom:70px;
+	right:70px;
 	background-color:#048634;
 	color:#FFF;
-	border-radius:50px;
+	border-radius:80px;
 	text-align:center;
-  font-size:40px;
+  font-size:66px;
 	box-shadow: 5px 5x 5px #999;
   z-index:100;
 }
 .float :hover{
 	transform: scale(1.2);
-	
-	}
-
+}
 
 
 	/* Estilos generales */
