@@ -581,9 +581,9 @@ body {
 	right:50px;
 	background-color:#048634;
 	color:#FFF;
-	border-radius:80px;
+	border-radius:40px;
 	text-align:center;
-  font-size:66px;
+  font-size:40px;
 	box-shadow: 5px 5x 5px #999;
   z-index:100;
 }
