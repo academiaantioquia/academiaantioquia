@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="loginpage.css">
+    <title>Login ventas247</title>
+    <script src="login.js"></script>
+    
+
+    
+</head>
+<body>
+    <h1>ESTUDIAMTES ACADEMIA ANTIOQUIA</h1>
+    <form action="">
+        <!-- Headings for the form -->
+        <div class="headingsContainer">
+            <h3>INGRESA</h3>
+            <p>INGRESA CON TU USUARIO Y CONTRASEÑA</p>
+        </div>
+
+        <!-- Main container for all inputs -->
+        <div class="">
+            <!-- Username -->
+            
+            <input type="text" placeholder= "Ingresa nombre" id="user" required autocomplete="off">
+
+            <br><br>
+
+            <!-- Password -->
+            
+            <input type="password" placeholder="Ingresa contraseña" id="psss" required>
+
+            <!-- sub container for the checkbox and forgot password link -->
+            <div class="subcontainer">
+                <label>
+                  <input type="checkbox" checked="checked" name="remember"> Recordarme
+                </label>
+                <p class="forgotpsd"> <a href="#">Forgot Password?</a></p>
+            </div>
+
+
+            <!-- Submit button -->
+            
+            <input type="button" value="iniciar sesion" onclick="login()">
+
+            <!-- Sign up link -->
+            <p class="register">Not a member?  <a href="#">Register here!</a></p>
+
+        </div>
+
+    </form>
+</body>
+</html>
