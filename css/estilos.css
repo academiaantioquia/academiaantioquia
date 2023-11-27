@@ -624,3 +624,40 @@ body {
     }
 }
 
+
+
+
+	/* Estilos generales */
+	.contenedor-portada {
+		position: relative;
+		overflow: hidden;
+		width: 900px;
+		height: 100%;
+		
+	}
+	
+	.contenedor-portada img {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+	
+	/* Estilos para escritorio */
+	@media only screen and (min-width: 768px) {
+		.contenedor-portada {
+			width: 1000px;
+			height: 250px;
+			margin: 0 auto;
+		}
+	}
+	
+	/* Estilos para dispositivos móviles */
+	@media only screen and (max-width: 767px) {
+		.contenedor-portada {
+			width: 300px;
+			height: 120px;
+			margin: 0 auto;
+		}
+	}
