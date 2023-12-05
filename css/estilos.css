@@ -10,15 +10,7 @@ body{
 		
 	
 }
-footer{
-	margin: auto;
-	width: 40%;
-	.buttons {
-		min-width: 100px;
-		display: flex;
-		justify-content: space-evenly;
-		margin-top: 15px;
-	  }
+
 	  
 	  .buttons a {
 		text-decoration: none;
@@ -519,7 +511,7 @@ body {
   footer {
 	background-color: rgba(4, 141, 15, 0.8); /* Gris claro con opacidad del 80% */
 	color: #fff; /* Texto en color blanco */
-	max-width: 100;
+	max-width: 100%;
 	width: 100%;
 	font-size: 18px;
 	text-align: center;
