@@ -615,6 +615,24 @@ body {
     height: 100%;
 	margin-top: 10%;
 }
+/* Estilos para todas las pantallas */
+.invitacion {
+	max-width: 100%;
+	height: auto;
+	text-align: center; /* Centra la imagen en el contenedor */
+  }
+  
+  .invitacion img {
+	max-width: 100%;
+	height: auto;
+  }
+  
+  /* Estilos específicos para pantallas pequeñas (celulares) */
+  @media only screen and (max-width: 600px) {
+	.invitacion {
+	  padding: 10px; /* Ajusta el relleno según sea necesario para pantallas pequeñas */
+	}
+  }
 
 /* Estilos para escritorio */
 @media only screen and (min-width: 768px) {
