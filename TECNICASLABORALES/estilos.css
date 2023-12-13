@@ -703,3 +703,28 @@ font-size: 16px;
 .descriptecnicas img{
 	
 }
+
+/* Estilos para pantallas pequeñas (celulares) */
+@media only screen and (max-width: 600px) {
+  .descriptecnicas {
+    /* Estilos específicos para pantallas pequeñas aquí */
+    padding: 10px; /* Ajusta el relleno según sea necesario */
+    font-size: 14px; /* Ajusta el tamaño de fuente según sea necesario */
+  }
+
+  .descriptecnicas h1 {
+    font-size: 24px; /* Ajusta el tamaño de fuente del título principal */
+  }
+
+  .descriptecnicas h2 {
+    font-size: 16px; /* Ajusta el tamaño de fuente de los subtítulos */
+  }
+  
+  .descriptecnicas ul li {
+    font-size: 14px; /* Ajusta el tamaño de fuente de los elementos de la lista */
+  }
+
+  .descriptecnicas h3 {
+    font-size: 14px; /* Ajusta el tamaño de fuente del subtítulo inferior */
+  }
+}
